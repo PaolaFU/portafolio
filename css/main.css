@@ -1,0 +1,205 @@
+/*** Imports ***/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/*** Helper  ***/
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.heading-border {width: 50%;}
+
+/*** Main Style ***/
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+strong {font-weight: 700;}
+
+a:link,
+a:visited {color: #d5d5d5;}
+
+a:hover,
+a:active {color: #fff;}
+
+/*** Home  ***/
+
+header {
+    background-image: url(http://1.bp.blogspot.com/-9rdVSgcxdTA/TwOEvPgO2tI/AAAAAAAAE2E/QVbei9HZ5cM/s1600/23.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #161738;
+  border-bottom: #a5a6c7;
+  opacity: 0.8;
+}
+  
+.logo {
+  font-size: 68px;
+  font-weight: 100;
+  
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 5px 0 5px 0;
+  font-family: 'Megrim', serif;
+}
+
+.main-info p {
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.main-info {color: #d5d5d5;}
+
+.learn-more {
+  font-size: 30px;
+  color: #d5d5d5;
+  position: absolute;
+}
+
+.learn-more .fa {position: absolute;}
+
+.learn-more .first-arrow {top: 20px;}
+
+.learn-more .second-arrow {top: 8px; left: -9.5px;}
+
+/*** About ***/
+
+#about {
+  padding-top: 33px;
+  padding-bottom: 30px;
+}
+
+.white-section .section-heading {
+  font-weight: 300;
+  color: #161738;
+}
+
+.usr-img {
+  margin-top: 10px;
+  width: 215px;
+  box-shadow: 0 1px 10px #385fcb;
+}
+
+blockquote:before {
+  content: "\201c";
+  color: #161738;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -3px;
+  font-size: 500%;
+}
+
+blockquote {
+  position: relative;
+  padding: 2%;
+  margin-top: 40px;
+  letter-spacing: 1px;
+  font-style: italic;
+  line-height: 145%;
+}
+
+cite {
+  text-align: left;
+  margin-top: 25px;
+  font-size: 90%;
+}
+
+/*** Portfolio ***/
+
+#portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(http://1.bp.blogspot.com/-9rdVSgcxdTA/TwOEvPgO2tI/AAAAAAAAE2E/QVbei9HZ5cM/s1600/23.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+.portfolio-items .section-heading {
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.thumbnail {border-radius: 1px;}
+
+.thumbnail img {width: 100%;}
+
+/*** Contact and Social ***/
+/*** Form ***/
+
+#contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.form-control {border-radius: 1px;}
+
+.btn {border-radius: 1px;}
+
+.sub {float: left;}
+
+/*** Social icons ***/
+
+.social-media h3 {
+  font-weight: 300;
+  color: #161738;
+}
+
+.social-media ul li {
+  text-decoration: 'none';
+  display: inline-block;
+  margin: 0 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+
+/*** Footer ***/
+
+#footer {
+  padding: 5px 5px 25px 5px;
+  background-color: #111A30;
+  border-top: 5px solid #283a62;
+  opacity: .99;
+}
+
+#footer h4 {
+  font-weight: 300;
+  color: #d5d5d5;
+}
+
+#footer p {
+  font-weight: 700;
+  color: #cecece;
+}
+
+.btt {
+  font-weight: 300;
+  background-color: #283a62;
+}
+
+.author {
+  position: relative;
+  top: 10px;
+  color: #696969;
+}
