@@ -1,8 +1,3 @@
-/*----------------------------------------------------------------------------- 
-BASE STYLES 
------------------------------------------------------------------------------*/
-
-/* Box Model Hack */
 * {
     -moz-box-sizing: border-box; /* Firexfox */
     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -10,13 +5,11 @@ BASE STYLES
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Bellefair', serif;
 }
 
 body {
    overflow-x: hidden;
-   font-family: 'Lato', sans-serif;
-  
-
 }
 
 html {
@@ -78,7 +71,7 @@ a:hover, a:focus, a:active  {
 NAVIGATION  
 -----------------------------------------------------------------------------*/
 .nav-desktop a{
-    border:2px red solid;
+    border:2px #f74539 solid;
     margin-left: 2em;
   display:inline-block;
 }
@@ -86,7 +79,7 @@ NAVIGATION
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
    color: white;
-   background-color: #0083AE;
+   background-color:  #ff7e2d;
 }
 
 
