@@ -78,8 +78,14 @@ a:hover, a:focus, a:active  {
 /*----------------------------------------------------------------------------- 
 NAVIGATION  
 -----------------------------------------------------------------------------*/
+.logo{
+    width: 110px;
+    height:60px;
+    margin: 0;
+    
+}
 .nav-desktop a{
-    border:2px #f74539 solid;
+    /*border:2px #f74539 solid;*/
     margin-left: 2em;
   display:inline-block;
   width: 8em;
@@ -141,7 +147,19 @@ NAVIGATION
 /*----------------------------------------------------------------------------- 
 HEADER
 -----------------------------------------------------------------------------*/
-
+.skills-list li {
+    
+    width: 6em;
+  text-align: center;
+  
+  list-style: none;
+  display:inline-block;
+  margin: 1em;
+  font-size: 2em;
+  background-color: orange;
+  color: white;
+  
+}
 .intro {
    background:url(https://www.baratomaquinas.com.br/wp-content/uploads/2017/08/bg-slider-01.jpg);
    background-position: center;
@@ -162,19 +180,25 @@ HEADER
    display: table-cell;
    vertical-align: middle;
 }
+hr {
+    height: 6px;
+    background-color: #ffffff;
+    margin-bottom: 4em;
+    margin-top: 0;
+  }
 
 .intro .intro-body .intro-heading {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 700px;
-   font-size: 80px;
+   
+   font-weight: 500px;
+   font-size: 10px;
    color: #fff;
-   margin-top: 80px;
+   
 
 }
 
 .intro .intro-text {
    margin-top: -30px;
-   font-size: 23px;
+   font-size: 40px;
    font-family: 'Roboto', sans-serif;
    font-weight: 700px;
    color: #fff;    
@@ -186,6 +210,11 @@ LAYOUT
 -----------------------------------------------------------------------------*/
 section {
    padding: 100px;
+   padding-bottom: 0;
+}
+#skills .skills{
+   
+    padding-bottom: 0;
 }
 
 section h2.section-heading {
@@ -207,6 +236,7 @@ section .foto {
 }
 /* Portfolio */
 .portfolio-titles{
+    margin-top: 3em;
     color: #ff7e2d;
 }
 .portfolio-titles1{
@@ -216,6 +246,7 @@ section .foto {
     font-size: 1.5em;
     
 }
+
 
 .portfolio-item {
    margin-top: 20px;
@@ -351,11 +382,11 @@ MEDIA QUERIES
 @media(min-width:769px) {
 
    .intro .intro-body .intro-heading {
-       font-size: 80px;
+       font-size: 60px;
    }   
 
    .intro .intro-body .intro-text {
-       font-size: 23px;
+       font-size: 35px;
    }
  
    
@@ -378,11 +409,11 @@ MEDIA QUERIES
 
    .intro .intro-body .intro-heading {
        
-       font-size: 60px;
+       font-size: 40px;
    }   
 
    .intro .intro-body .intro-text {
-       font-size: 18px;
+       font-size: 22px;
    
    
    }
@@ -402,14 +433,23 @@ MEDIA QUERIES
 @media(max-width:360px) {
    .intro .intro-body .intro-heading {
        
-       font-size: 45px;
+       font-size: 35px;
    }   
 
    .intro .intro-body .intro-text {
-       font-size: 18px;
+       font-size: 14px;
    
    
    }
 
-   
+}
+/**/ 
+.portfoliofooter{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    
+}
+.portfoliofooter p{
+    margin: 0;
 }
