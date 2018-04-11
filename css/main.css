@@ -161,14 +161,17 @@ HEADER
   
 }
 .intro {
-   background:url(https://www.baratomaquinas.com.br/wp-content/uploads/2017/08/bg-slider-01.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
+    /*background:url(https://k33.kn3.net/taringa/A/7/8/A/C/3/luismi222222/4C3.jpg);*/
+    background:url( https://k30.kn3.net/taringa/C/5/E/3/E/7/luismi222222/FBD.jpg);
+   /*background:url(https://k33.kn3.net/taringa/1/D/8/B/C/0/luismi222222/2EA.jpg);*/
+ 
+   
+  background-position: center;
    display: table;
    width: 100%;
    height: auto;
-   /*margin-top: -18px;*/
-   padding: 15em 0;
+   margin-top: 3em;
+   padding: 11em 0 ;
    text-align: center;   
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -191,7 +194,7 @@ hr {
    
    font-weight: 500px;
    font-size: 10px;
-   color: #fff;
+   color:white;
    
 
 }
@@ -236,7 +239,7 @@ section .foto {
 }
 /* Portfolio */
 .portfolio-titles{
-    margin-top: 3em;
+    margin-top: 0em;
     color: #ff7e2d;
 }
 .portfolio-titles1{
@@ -254,7 +257,7 @@ section .foto {
 
 #portfolio .portfolio-item {
    right: 0;
-   margin: 0 0 15px;
+   margin: 0 0 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -445,11 +448,59 @@ MEDIA QUERIES
 }
 /**/ 
 .portfoliofooter{
-    background-color: orangered;
+    background-color:rgba(238, 97, 15, 0.712);
     color: white;
     text-align: center;
     
 }
 .portfoliofooter p{
     margin: 0;
+   
 }
+.bordes{
+    border: 1px solid red;
+    padding: 0.8em;
+}
+
+
+
+.link:hover {
+    color: #2ecc71;
+    border-bottom: 2px dotted #2ecc71;
+  }
+  
+  /* button div */
+  #buttons {
+    
+    text-align: center;
+  }
+  
+  /* start da css for da buttons */
+  .btn {
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+  
+  
+  
+  .orange {
+    background-color: #e67e22;
+    box-shadow: 0px 5px 0px 0px #CD6509;
+  }
+  
+  .orange:hover {
+    background-color: rgba(235, 121, 46, 0.959);
+  }
